@@ -1,0 +1,11 @@
+helmc create pthon-app
+helm install python-app -n python .
+helm install python-app -n python . --create-namespace
+
+
+To list all deployments:
+kubectl get deployments --all-namespaces
+
+
+To delete from default namespace:-
+kubectl delete deployment DEPLOYMENT
