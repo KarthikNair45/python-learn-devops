@@ -3,7 +3,7 @@ import datetime
 app=Flask(__name__)
 @app.route('/')
 def index():
-    return 'Hello, I am aliv!'
+    return 'Hello, I am alive!'
 
 @app.route("/api/v1/details")
 def details():
