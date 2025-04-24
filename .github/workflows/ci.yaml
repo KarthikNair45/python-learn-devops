@@ -20,4 +20,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: karthiknair45/python-app:${{ github.sha }}

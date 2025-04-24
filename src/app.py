@@ -13,4 +13,4 @@ if __name__=="__main__":
 
 @app.route("api/v1/test")
 def test():
-    return jsonify({'test':'testt'})
+    return jsonify({'test':'test'})
